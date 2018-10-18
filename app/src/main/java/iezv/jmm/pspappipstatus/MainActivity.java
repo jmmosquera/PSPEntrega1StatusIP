@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        this.imageView = (ImageView) findViewById(R.id.imageView);
-        this.textView3 = (TextView) findViewById(R.id.textView3);
-        this.textView2 = (TextView) findViewById(R.id.textView2);
-        this.textView = (TextView) findViewById(R.id.textView);
-        this.button = (Button) findViewById(R.id.button);
+        this.imageView = findViewById(R.id.imageView);
+        this.textView3 = findViewById(R.id.textView3);
+        this.textView2 = findViewById(R.id.textView2);
+        this.textView = findViewById(R.id.textView);
+        this.button = findViewById(R.id.button);
 
         checkInternet();
         checkIP();
