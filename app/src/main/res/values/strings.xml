@@ -3,4 +3,5 @@
     <string name="currentip">Tu dirección IP actual: </string>
     <string name="internetonline">Estado de tu conexión a Internet:</string>
     <string name="recharge">↺</string>
+    <string name="searching">Buscando IP...</string>
 </resources>
